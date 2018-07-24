@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PP.Remoter", "PP.Remoter\PP.Remoter.csproj", "{59289544-2652-44B5-AF80-5186D8C333FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工具类", "工具类", "{C80BDC97-4C0A-4DFB-B044-1F6C885E2E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PP.RemoterClient", "PP.RemoterClient\PP.RemoterClient.csproj", "{A8FB746A-7483-4F97-A81D-8B19B67A42A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PP.RemoterServer", "PP.RemoterServer\PP.RemoterServer.csproj", "{4F7E0A57-0CE8-417C-B345-1D2B813F0215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "测试工程", "测试工程", "{7C05D447-D411-4903-9498-AAEE10A2D24C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Painter", "Tests\Demo.Painter\Demo.Painter.csproj", "{D35C8D21-664B-46E0-A225-F3DE0F785853}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59289544-2652-44B5-AF80-5186D8C333FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59289544-2652-44B5-AF80-5186D8C333FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59289544-2652-44B5-AF80-5186D8C333FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59289544-2652-44B5-AF80-5186D8C333FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FB746A-7483-4F97-A81D-8B19B67A42A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FB746A-7483-4F97-A81D-8B19B67A42A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FB746A-7483-4F97-A81D-8B19B67A42A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FB746A-7483-4F97-A81D-8B19B67A42A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7E0A57-0CE8-417C-B345-1D2B813F0215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7E0A57-0CE8-417C-B345-1D2B813F0215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7E0A57-0CE8-417C-B345-1D2B813F0215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7E0A57-0CE8-417C-B345-1D2B813F0215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35C8D21-664B-46E0-A225-F3DE0F785853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35C8D21-664B-46E0-A225-F3DE0F785853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35C8D21-664B-46E0-A225-F3DE0F785853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35C8D21-664B-46E0-A225-F3DE0F785853}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D35C8D21-664B-46E0-A225-F3DE0F785853} = {7C05D447-D411-4903-9498-AAEE10A2D24C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAFC037E-4972-46BB-B101-B960666042B5}
+	EndGlobalSection
+EndGlobal
