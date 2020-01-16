@@ -64,7 +64,7 @@
       <HintPath>..\ICanSeeYou\Common\bin\Debug\ICanSeeYou.dll</HintPath>
     </Reference>
     <Reference Include="IPAddressControlLib">
-      <HintPath>..\..\..\..\Project\Fork\Fork.Net\Dlls\Control\IPAddressControlLib.dll</HintPath>
+      <HintPath>..\dlls\IPAddressControlLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

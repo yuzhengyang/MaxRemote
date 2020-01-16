@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxRemote", "MaxRemote\MaxRemote.csproj", "{2D0E424C-4E3C-4638-8FEC-83708F33B374}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "应用程序", "应用程序", "{C41E192B-1F0F-4FD9-9A4B-096398CC18C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxRemote.SwitchServer", "MaxRemote.SwitchServer\MaxRemote.SwitchServer.csproj", "{DA2344B2-984A-46A7-8D9D-B0655685728C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxRemote.Models", "MaxRemote.Models\MaxRemote.Models.csproj", "{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "公共项目", "公共项目", "{154B3282-FE3C-42AD-BC2E-2325D23E0063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D0E424C-4E3C-4638-8FEC-83708F33B374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0E424C-4E3C-4638-8FEC-83708F33B374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0E424C-4E3C-4638-8FEC-83708F33B374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0E424C-4E3C-4638-8FEC-83708F33B374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2344B2-984A-46A7-8D9D-B0655685728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2344B2-984A-46A7-8D9D-B0655685728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2344B2-984A-46A7-8D9D-B0655685728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2344B2-984A-46A7-8D9D-B0655685728C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D0E424C-4E3C-4638-8FEC-83708F33B374} = {C41E192B-1F0F-4FD9-9A4B-096398CC18C7}
+		{DA2344B2-984A-46A7-8D9D-B0655685728C} = {C41E192B-1F0F-4FD9-9A4B-096398CC18C7}
+		{FD2C269E-89C1-4FC4-AFD4-A1DCCB939111} = {154B3282-FE3C-42AD-BC2E-2325D23E0063}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A652BF9C-0B4A-47C0-BCD2-22AEBE5DA7FC}
+	EndGlobalSection
+EndGlobal
